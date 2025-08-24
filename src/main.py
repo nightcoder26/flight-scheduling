@@ -10,8 +10,9 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 
 
 # 📊 Load Preloaded Dataset (replace with actual path or cloud URL)
-DATA_PATH = "../data/flight_data.xlsx"  # could also be .csv
-df = pd.read_excel(DATA_PATH)
+df = pd.read_excel("data/flight_data.xlsx")
+
+
 
 # Streamlit Page Setup
 st.set_page_config(page_title="✈️ Mumbai Airport Insights", layout="wide")
