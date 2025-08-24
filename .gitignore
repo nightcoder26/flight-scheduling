@@ -149,3 +149,6 @@ Desktop.ini
 # PyCharm
 .idea/
 *.iml
+
+
+src/.streamlit/
